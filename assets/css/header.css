@@ -1,0 +1,31 @@
+.header {
+  height: 120px;
+  background: #f53d2d;
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navbar__item {
+  display: inline-block;
+  padding-right: 10px;
+}
+.navbar__item + .navbar__item {
+  padding-left: 10px;
+  border-left: 2px solid black;
+}
+
+.navbar__item a {
+  font-size: 1.6rem;
+  color: var(--white-color);
+  text-decoration: none;
+}
