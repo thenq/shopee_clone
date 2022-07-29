@@ -26,13 +26,32 @@
               <li class="navbar__item"><a href="#">Kênh người bán</a></li>
               <li class="navbar__item"><a href="#">Trở thành người bán Shopee</a></li>
               <li class="navbar__item"><a href="#">Tải ứng dụng</a></li>
-              <li class="navbar__item"><a href="#">Kết nối</a></li>
+              <li class="navbar__item show-qa-code">
+                <a href="#">Kết nối</a>
+                <div class="qa-code"><img src="./assets/images/qa-code.png" alt="qaCode"></div>
+              </li>
               <li class="navbar__item"><a href="#"><i class="fab fa-facebook"></i></a></li>
               <li class="navbar__item"><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
             </ul>
 
             <ul class="navbar__list">
-              <li class="navbar__item"><a href="#"><i class="fa-solid fa-bell p-r-5"></i>Thông báo</a></li>
+              <li class="navbar__item show-notifications">
+                <a href="#">
+                  <i class="fa-solid fa-bell p-r-5"></i>
+                  Thông báo
+                </a>
+                <div class="grid notifications">
+                  <div class="row no-gutters notifications__container">
+                    <div class="col l-12 notifications__content">
+                      Đăng nhập để xem thông báo
+                    </div>
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col l-6 notifications__action-btn">Đăng nhập</div>
+                    <div class="col l-6 notifications__action-btn">Đăng ký</div>
+                  </div>
+                </div>
+              </li>
               <li class="navbar__item"><a href="#"><i class="fa-solid fa-circle-question p-r-5"></i>Hỗ trợ</a></li>
               <li class="navbar__item"><a href="#">Tiếng việt</a></li>
               <li class="navbar__item font-bold"><a href="#">Đăng ký</a></li>
@@ -45,6 +64,11 @@
       <div class="container"></div>
 
       <footer></footer>
+    </div>
+
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body"></div>
     </div>
   </body>
 </html>
